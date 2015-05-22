@@ -5,5 +5,5 @@ var router = express.Router();
 router.get('/', function(req, res) {
   res.render('index', { title: 'Quiz' });
 });
-
+//router.get('/author', quizController.author);
 module.exports = router;
